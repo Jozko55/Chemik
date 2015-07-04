@@ -9,7 +9,37 @@ public class Pomocky {
     public static final HashMap<String, String> ZNACKY = new HashMap<String, String>();
     public static final HashMap<String, String> PREDPONY1 = new HashMap<String, String>();
     public static final HashMap<String, String> PREDPONY2 = new HashMap<String, String>();
+
+    public static HashMap<String, Prvok> prvky = new HashMap<String, Prvok>();
+
     static {
+        new Prvok("Sodik", "Na", "sod", "sod");
+        new Prvok("Litium", "Li", "lit", "lit");
+        new Prvok("Zelezo", "Fe", "zelez", "zelez");
+        new Prvok("Uhlik", "C", "uhol", "uhl");
+        new Prvok("Vodik", "H", "vod", "vod");
+        new Prvok("Dusik", "N", "dus", "dus");
+        new Prvok("Kyslik", "O", "kyslic", "kyslic");
+        new Prvok("Horcik", "Mg", "horec", "horec");
+        Prvok hlinnik = new Prvok("Hlinnik", "Al", "hlin", "hlin");
+        Prvok zlato = new Prvok("Zlato", "Au", "zlat", "zlat");
+        Prvok striebro = new Prvok("Striebro", "Ag", "striebor", "striebr");
+        Prvok osmium = new Prvok("Osmium", "Os", "osmi", "osm");
+        Prvok olovo = new Prvok("Olovo", "Pb", "olov", "olov");
+        Prvok cin = new Prvok("Cin", "Sn", "cin", "cin");
+        Prvok antimon = new Prvok("Antimon", "St", "antimon", "antimon");
+        Prvok brom = new Prvok("Brom", "Br", "brom", "brom");
+        Prvok bor = new Prvok("Bor", "B", "bor", "bor");
+        Prvok jod = new Prvok("Jod", "I", "jod", "jod");
+        Prvok chlor = new Prvok("Chlor", "Cl", "chlor", "chlor" );
+        Prvok sira = new Prvok("Sira", "S", "sir", "sir");
+        Prvok fluor = new Prvok("Fluor", "F", "fluor", "fluor");
+        Prvok fosfor = new Prvok("Fosfor", "P", "fosfor", "fosfor");
+        Prvok kremik = new Prvok("Kremik", "Si", "krem", "krem");
+        Prvok telur = new Prvok("Telur", "Te", "telur", "telur");
+        Prvok zinok = new Prvok("Zinok", "Zn", "zinoc", "zinoc");
+        Prvok ortut = new Prvok("Ortut", "Hg", "ortut", "ortut");
+
         ZNACKY.put("Sira", "S");
         ZNACKY.put("Sodik", "Na");
         ZNACKY.put("Uhlik", "C");

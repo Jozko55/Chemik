@@ -19,6 +19,8 @@ public class Prvok {
         this.dlzka_nazvu = nazov.length();
         this.predpona1 = predpona1;
         this.predpona2 = predpona2;
+
+        Pomocky.prvky.put(this.znacka, this);
         //this.oxidacne_cislo = oxidacne_cislo;
     }
 
