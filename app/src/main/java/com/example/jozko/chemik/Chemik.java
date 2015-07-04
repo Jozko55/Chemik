@@ -28,6 +28,17 @@ public class Chemik extends ActionBarActivity {
                 Chemik.this.startActivity(myIntent);
             }
         });
+
+        findViewById(R.id.soli_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent myIntent = new Intent(Chemik.this, Soli.class);
+                myIntent.putExtra("key", value); //Optional parameters
+                Chemik.this.startActivity(myIntent);
+            }
+        });
     }
 
     @Override

@@ -20,6 +20,10 @@
             android:name=".Kyseliny"
             android:label="@string/title_activity_kyseliny" >
         </activity>
+        <activity
+            android:name=".Soli"
+            android:label="@string/title_activity_soli" >
+        </activity>
     </application>
 
 </manifest>
