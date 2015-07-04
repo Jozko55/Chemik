@@ -39,6 +39,17 @@ public class Chemik extends ActionBarActivity {
                 Chemik.this.startActivity(myIntent);
             }
         });
+
+        findViewById(R.id.oxidy_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent myIntent = new Intent(Chemik.this, Oxidy.class);
+                myIntent.putExtra("key", value); //Optional parameters
+                Chemik.this.startActivity(myIntent);
+            }
+        });
     }
 
     @Override

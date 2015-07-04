@@ -5,4 +5,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_kyseliny">kyseliny</string>
     <string name="title_activity_soli">Soli</string>
+    <string name="title_activity_oxidy">Oxidy</string>
 </resources>
