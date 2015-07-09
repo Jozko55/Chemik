@@ -1,6 +1,6 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="#ff112550" tools:context=".kyseliny">
+    android:layout_height="match_parent" android:background="#ff1a1d47" tools:context=".kyseliny">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -13,105 +13,146 @@
         android:textStyle="bold" android:textSize="50sp" android:gravity="center" />
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:paddingTop="100dp">
+        android:layout_height="match_parent">
 
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/t1"
-            android:minWidth="10dp"
-            android:text="H"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:layout_weight=".24"
-            android:textColor="#ffffe6be" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/i1"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:layout_weight=".14"
-            android:textColor="#ffffe6be" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/t2"
-            android:textStyle="bold"
-            android:textSize="30dp"
-            android:layout_weight=".24"
-            android:textColor="#ffffe6be" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/t3"
-            android:text="O"
-            android:textStyle="bold"
-            android:textSize="30dp"
-            android:layout_weight=".24"
-            android:textColor="#ffffe6be" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/i2"
-            android:textStyle="bold"
-            android:textSize="30dp"
-            android:layout_weight=".14"
-            android:textColor="#ffffe6be" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/xxx">
-
-        <Button
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:text="Vygeneruj kyselinu!"
-            android:id="@+id/b1"
-            android:textStyle="bold"
-            android:textSize="30dp"
-            android:layout_gravity="center_vertical"
-            android:textColor="#ff112550" />
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="100dp"
+            android:layout_weight=".4">
 
-    </LinearLayout>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:minWidth="10dp"
+                android:text="H"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_weight=".24"
+                android:textColor="#ffffe6be" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:id="@+id/hjh"
-        android:layout_gravity="bottom"
-        android:baselineAligned="false">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/i1"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_weight=".14"
+                android:textColor="#ffffe6be" />
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="85dp"
-            android:id="@+id/texticek"
-            android:textStyle="bold"
-            android:textSize="40dp"
-            android:textColor="#ffffe6be"
-            android:autoText="false"
-            android:background="@drawable/back"
-            android:backgroundTintMode="multiply" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_weight=".24"
+                android:textColor="#ffffe6be" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t3"
+                android:text="O"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_weight=".24"
+                android:textColor="#ffffe6be" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/i2"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_weight=".14"
+                android:textColor="#ffffe6be" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/xxx"
+            android:layout_weight=".4">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="NAPIS NAZOV!"
+                android:id="@+id/b1"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ff1a1d47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="right|top"
+            android:layout_weight=".25"
+            android:background="@drawable/back">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".35" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/hjh"
+                android:layout_gravity="bottom"
+                android:baselineAligned="false"
+                android:layout_weight=".4">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/texticek"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#ffffe6be"
+                    android:autoText="false"
+                    android:backgroundTintMode="multiply"
+                    android:layout_weight=".8" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".25" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
 </FrameLayout>
+

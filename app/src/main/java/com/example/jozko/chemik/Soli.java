@@ -99,7 +99,7 @@ public class Soli extends Activity {
 
             }
         });
-        findViewById(R.id.b2).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.b2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ((EditText)findViewById(R.id.t1)).setText("");
@@ -111,6 +111,6 @@ public class Soli extends Activity {
                 ((TextView)findViewById(R.id.zat1)).setText(")");
                 ((TextView)findViewById(R.id.zat2)).setText("(");
             }
-        });
+        });*/
     }
 }
